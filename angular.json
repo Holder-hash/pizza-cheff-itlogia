@@ -30,7 +30,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/app/styles/styles.scss",
+              "src/app/styles/variables.scss"
             ],
             "scripts": []
           },
@@ -93,10 +94,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/app/styles/styles.scss",
+              "src/app/styles/variables.scss"
+
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
